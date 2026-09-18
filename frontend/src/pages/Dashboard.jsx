@@ -7,7 +7,7 @@ import LoadingSpinner from "../components/ui/LoadingSpinner";
 import Skeleton from "../components/ui/Skeleton";
 import { AlertCircle, Plus, RefreshCw } from "lucide-react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API = (import.meta.env.VITE_API_URL || "http://localhost:3000").replace(/\/+$/, "");
 
 export default function Dashboard({ onPageChange, onSelectDeal }) {
   const [stats, setStats] = useState(null);

@@ -6,7 +6,7 @@ import Skeleton from "../components/ui/Skeleton";
 import Button from "../components/ui/Button";
 import { AlertCircle, Plus, RefreshCw } from "lucide-react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API = (import.meta.env.VITE_API_URL || "http://localhost:3000").replace(/\/+$/, "");
 
 export default function Deals({ onPageChange, onSelectDeal }) {
   const [deals, setDeals] = useState([]);

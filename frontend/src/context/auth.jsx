@@ -1,6 +1,6 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API = (import.meta.env.VITE_API_URL || "http://localhost:3000").replace(/\/+$/, "");
 
 const AuthContext = createContext(null);
 
@@ -56,22 +56,29 @@ export function AuthProvider({ children }) {
   }, []);
 
   const login = async (email, password) => {
-    const res = await fetch(`${API}/api/auth/login`, {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email, password }),
-    });
+    try {
+      const res = await fetch(`${API}/api/auth/login`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email, password }),
+      });
 
-    const data = await res.json();
-    if (!res.ok) {
-      throw new Error(data.error || "Login failed. Please check your credentials.");
+      const data = await res.json().catch(() => ({}));
+      if (!res.ok) {
+        throw new Error(data.error || "Login failed. Please check your credentials.");
+      }
+
+      localStorage.setItem("dealiq_token", data.token);
+      localStorage.setItem("dealiq_user", JSON.stringify(data.user));
+      setToken(data.token);
+      setUser(data.user);
+      return data.user;
+    } catch (err) {
+      if (err.message && (err.message.includes("Failed to fetch") || err.message.includes("NetworkError"))) {
+        throw new Error(`Unable to connect to Core API at ${API}. (If Render was sleeping, it may take 40s to wake up — please wait a few seconds and try again).`);
+      }
+      throw err;
     }
-
-    localStorage.setItem("dealiq_token", data.token);
-    localStorage.setItem("dealiq_user", JSON.stringify(data.user));
-    setToken(data.token);
-    setUser(data.user);
-    return data.user;
   };
 
   const signup = async ({ companyName, name, email, password }) => {

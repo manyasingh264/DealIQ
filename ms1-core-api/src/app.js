@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 const { initDb } = require('./db/connection');
+const { seed } = require('../scripts/seed');
 const { authenticate } = require('./middleware/auth');
 const { getStatsController } = require('./controllers/analyticsController');
 const { analyzeDealController } = require('./controllers/dealController');
@@ -55,6 +56,7 @@ app.use((err, req, res, next) => {
 async function startServer() {
   try {
     await initDb();
+    await seed();
     
     // Start server
     app.listen(PORT, () => {

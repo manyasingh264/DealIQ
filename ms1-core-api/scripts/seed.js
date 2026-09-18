@@ -1,7 +1,10 @@
 const { getDb, saveDb } = require('../src/db/connection');
 const bcrypt = require('bcrypt');
+const fs = require('fs');
+const path = require('path');
 
-const SEED_DEALS = [
+// Fallback seed deals if all_deals.json is not present
+const FALLBACK_DEALS = [
   {
     company: "Acme Corp",
     deal_name: "Enterprise License",
@@ -62,52 +65,84 @@ const SEED_DEALS = [
 ];
 
 async function seed() {
-  console.log('Starting seed...');
-  
+  console.log('Checking database seed status...');
   const db = await getDb();
   
-  // Check if data already exists
-  const existingDeals = db.exec('SELECT COUNT(*) as count FROM deals');
-  if (existingDeals[0].values[0][0] > 0) {
-    console.log('Database already has data. Skipping seed.');
-    return;
-  }
-  
-  // Create default organization if not exists
+  // 1. Create default organization if not exists
+  let organizationId = 1;
   const orgResult = db.exec('SELECT id FROM organizations WHERE name = "Default Organization"');
-  let organizationId;
   if (orgResult.length === 0 || orgResult[0].values.length === 0) {
     db.run(`INSERT INTO organizations (name) VALUES ('Default Organization')`);
     const result = db.exec('SELECT last_insert_rowid() as id');
     organizationId = result[0].values[0][0];
+    console.log(`Created Default Organization (ID: ${organizationId})`);
   } else {
     organizationId = orgResult[0].values[0][0];
   }
   
-  // Create default admin user if not exists
-  const userResult = db.exec('SELECT id FROM users WHERE email = "admin@dealiq.com"');
-  let userId;
-  if (userResult.length === 0 || userResult[0].values.length === 0) {
+  // 2. Create default Admin user if not exists
+  let adminId = 1;
+  const adminResult = db.exec('SELECT id FROM users WHERE email = "admin@dealiq.com"');
+  if (adminResult.length === 0 || adminResult[0].values.length === 0) {
     const passwordHash = await bcrypt.hash('admin123', 10);
     db.run(`INSERT INTO users (organization_id, email, password_hash, role, full_name) VALUES (${organizationId}, 'admin@dealiq.com', '${passwordHash}', 'ADMIN', 'Default Admin')`);
     const result = db.exec('SELECT last_insert_rowid() as id');
-    userId = result[0].values[0][0];
+    adminId = result[0].values[0][0];
+    console.log(`Created Demo Admin: admin@dealiq.com / admin123 (ID: ${adminId})`);
   } else {
-    userId = userResult[0].values[0][0];
+    adminId = adminResult[0].values[0][0];
   }
+
+  // 3. Create default AE user if not exists
+  const aeResult = db.exec('SELECT id FROM users WHERE email = "ae@dealiq.com"');
+  if (aeResult.length === 0 || aeResult[0].values.length === 0) {
+    const aePasswordHash = await bcrypt.hash('ae123456', 10);
+    db.run(`INSERT INTO users (organization_id, email, password_hash, role, full_name) VALUES (${organizationId}, 'ae@dealiq.com', '${aePasswordHash}', 'AE', 'Demo AE')`);
+    console.log('Created Demo AE: ae@dealiq.com / ae123456');
+  }
+
+  // 4. Seed deals if empty
+  const dealsCountRes = db.exec('SELECT COUNT(*) as count FROM deals');
+  const count = (dealsCountRes.length > 0 && dealsCountRes[0].values.length > 0) ? dealsCountRes[0].values[0][0] : 0;
   
-  // Insert seed deals
-  for (const deal of SEED_DEALS) {
+  if (count > 0) {
+    console.log(`Database already has ${count} deals. Skipping deals seed.`);
+    saveDb();
+    return;
+  }
+
+  // Load all deals from JSON if available
+  let dealsToInsert = FALLBACK_DEALS;
+  const jsonPath = path.resolve(__dirname, 'all_deals.json');
+  if (fs.existsSync(jsonPath)) {
+    try {
+      const raw = fs.readFileSync(jsonPath, 'utf8');
+      dealsToInsert = JSON.parse(raw);
+    } catch (e) {
+      console.warn('Could not read all_deals.json, using fallback deals:', e.message);
+    }
+  }
+
+  for (const deal of dealsToInsert) {
+    const safeCompany = (deal.company || '').replace(/'/g, "''");
+    const safeDealName = (deal.deal_name || '').replace(/'/g, "''");
+    const safeText = (deal.deal_text || '').replace(/'/g, "''");
+    const safeReason = (deal.primary_reason || 'pricing').replace(/'/g, "''");
+    const safeReport = typeof deal.report === 'string' ? deal.report.replace(/'/g, "''") : JSON.stringify(deal.report || {}).replace(/'/g, "''");
+    const createdAt = deal.created_at || new Date().toISOString().replace('T', ' ').slice(0, 19);
+
     db.run(`
       INSERT INTO deals (organization_id, user_id, company, deal_size, outcome, deal_text, primary_reason, report, deal_name, created_at)
-      VALUES (${organizationId}, ${userId}, '${deal.company}', '${deal.deal_size}', '${deal.outcome}', '${deal.deal_text}', '${deal.primary_reason}', '${deal.report}', '${deal.deal_name}', '${deal.created_at}')
+      VALUES (${organizationId}, ${adminId}, '${safeCompany}', '${deal.deal_size}', '${deal.outcome}', '${safeText}', '${safeReason}', '${safeReport}', '${safeDealName}', '${createdAt}')
     `);
   }
-  
+
   saveDb();
-  
-  console.log(`Seeded ${SEED_DEALS.length} deals successfully!`);
-  console.log('Default admin credentials: admin@dealiq.com / admin123');
+  console.log(`Successfully seeded ${dealsToInsert.length} deals!`);
 }
 
-seed().catch(console.error);
+if (require.main === module) {
+  seed().catch(console.error);
+}
+
+module.exports = { seed };

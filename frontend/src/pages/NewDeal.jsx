@@ -6,7 +6,7 @@ import Textarea from "../components/ui/Textarea";
 import LoadingSpinner from "../components/ui/LoadingSpinner";
 import { Loader2 } from "lucide-react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:3000";
+const API = (import.meta.env.VITE_API_URL || "http://localhost:3000").replace(/\/+$/, "");
 
 const STEPS = [
   "Parsing deal context",
