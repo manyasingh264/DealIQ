@@ -1,303 +1,13 @@
 [
   {
-    "company": "Reliance Retail",
-    "deal_name": "Field Sales Automation",
-    "deal_size": "$18,750",
-    "outcome": "WON",
-    "deal_text": "Prospect had 200 field sales reps with no call tracking. IT Head was our champion. Showed ROI calculator in stage 3 - estimated 28% productivity gain. Competitor Zoho was in the mix but we won on implementation support.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Implementation time\"], \"positive_signals\": [\"IT Head was champion\", \"Strong ROI demo\"], \"coaching_note\": \"Champion strategy worked perfectly.\", \"strategic_insight\": \"ROI calculator in stage 3 is decisive for enterprise deals.\", \"next_time\": [\"Introduce ROI earlier\", \"Get IT Head involved sooner\", \"Document champion strategy\"], \"what_worked\": [\"ROI demonstration\", \"Implementation support offer\"], \"primary_explanation\": \"Strong internal champion and clear ROI justification won the deal.\"}",
-    "created_at": "2025-12-15 10:30:00"
-  },
-  {
-    "company": "HDFC Bank SME Division",
-    "deal_name": "Call Compliance Platform",
-    "deal_size": "$22,400",
-    "outcome": "WON",
-    "deal_text": "Bank needed call compliance and monitoring for 150 loan officers. No competition in final stage. Decision made in 3 weeks. CFO approved budget quickly due to regulatory compliance angle.",
+    "company": "Stripe India Operations",
+    "deal_name": "Customer Success Call Intelligence",
+    "deal_size": "$38,000",
+    "outcome": "LOST",
+    "deal_text": "Evaluated for 250 customer success reps. Head of Support was our main contact. The product demo went very well and the team loved our automatic call transcription feature. However, Salesforce was also in the evaluation and already integrated with their existing ticketing system. In the final procurement review, their VP Finance flagged that we lacked native Zendesk and Salesforce two-way sync, which would require custom IT work. They decided to renew with Salesforce despite our 25% lower licensing cost.\n",
     "primary_reason": "product_gap",
-    "report": "{\"competitors\": [], \"objections\": [\"Data security\"], \"positive_signals\": [\"No competition\", \"Regulatory urgency\", \"Fast budget approval\"], \"coaching_note\": \"Compliance angle was the key unlock.\", \"strategic_insight\": \"Banking sector has strong compliance-driven purchasing \\u2014 lead with compliance in all banking deals.\", \"next_time\": [\"Lead with compliance angle earlier\", \"Involve CFO in first demo\", \"Prepare data security documentation upfront\"], \"what_worked\": [\"Compliance positioning\", \"Fast close strategy\"], \"primary_explanation\": \"Regulatory compliance urgency created fast decision-making with no competition.\"}",
-    "created_at": "2025-12-08 14:20:00"
-  },
-  {
-    "company": "Zomato Field Operations",
-    "deal_name": "Restaurant Acquisition Tracking",
-    "deal_size": "$11,800",
-    "outcome": "WON",
-    "deal_text": "Zomato restaurant acquisition team had 80 salespeople with no structured call tracking. Our platform was 30% cheaper than Salesforce. Demo was strong, free 2-week trial converted them.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Data migration\"], \"positive_signals\": [\"Price advantage\", \"Free trial converted\", \"Strong demo\"], \"coaching_note\": \"Free trial was the conversion catalyst here.\", \"strategic_insight\": \"Against Salesforce, pricing + free trial is a winning combination for mid-market.\", \"next_time\": [\"Offer free trial earlier in the process\", \"Address data migration concerns proactively\", \"Use Salesforce price comparison slide\"], \"what_worked\": [\"Competitive pricing\", \"Free trial offer\"], \"primary_explanation\": \"Clear price advantage over Salesforce combined with successful free trial converted the deal.\"}",
-    "created_at": "2025-11-28 09:15:00"
-  },
-  {
-    "company": "PhonePe Inside Sales",
-    "deal_name": "Merchant Sales Enablement",
-    "deal_size": "$19,600",
-    "outcome": "WON",
-    "deal_text": "PhonePe merchant acquisition team with 120 reps. VP Sales was our champion from day 1. Ran a 3-week POC. Team loved the product. Signed annual contract.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Freshsales\"], \"objections\": [\"POC timeline too long\"], \"positive_signals\": [\"VP Sales as champion\", \"Team loved POC\", \"Annual contract\"], \"coaching_note\": \"Getting VP Sales as champion early eliminated all political blockers.\", \"strategic_insight\": \"C-level champions in sales orgs close deals 2x faster \\u2014 always aim higher.\", \"next_time\": [\"Reduce POC to 2 weeks\", \"Get VP Sales involved in week 1\", \"Prepare team adoption plan\"], \"what_worked\": [\"Executive champion strategy\", \"POC approach\"], \"primary_explanation\": \"VP Sales champion eliminated internal blockers and POC proved value clearly.\"}",
-    "created_at": "2025-11-20 16:45:00"
-  },
-  {
-    "company": "Meesho Supplier Sales",
-    "deal_name": "Supplier Onboarding Platform",
-    "deal_size": "$9,200",
-    "outcome": "WON",
-    "deal_text": "Meesho supplier acquisition team. Budget was tight. We offered a flexible monthly payment plan instead of annual upfront. That unlocked the deal. No strong competitors.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [], \"objections\": [\"Upfront cost\", \"Budget constraints\"], \"positive_signals\": [\"No competition\", \"Flexible payment worked\"], \"coaching_note\": \"Payment flexibility can unlock budget-constrained deals.\", \"strategic_insight\": \"Monthly payment option should be standard offering for SMB-style buyers.\", \"next_time\": [\"Offer monthly plan proactively to budget-constrained accounts\", \"Qualify budget early\", \"Have flexible payment ready as a card to play\"], \"what_worked\": [\"Payment flexibility\", \"No competition positioning\"], \"primary_explanation\": \"Flexible monthly payment plan overcame budget constraints and closed the deal.\"}",
-    "created_at": "2025-11-12 11:30:00"
-  },
-  {
-    "company": "IndiaMART SMB Team",
-    "deal_name": "SMB Sales Visibility",
-    "deal_size": "$7,850",
-    "outcome": "WON",
-    "deal_text": "IndiaMART sales team for SMB onboarding. Quick 2-call close. Decision maker was on the first call. Pain was acute - they had no visibility into rep activity.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [], \"objections\": [\"Integration with existing tools\"], \"positive_signals\": [\"Decision maker in first call\", \"Acute pain point\", \"Quick close\"], \"coaching_note\": \"When the decision maker is in the first call, move fast.\", \"strategic_insight\": \"Deals with DM in call 1 close in under 2 weeks \\u2014 prioritize these.\", \"next_time\": [\"Always try to get DM in first call\", \"Have integration documentation ready\", \"Move quickly when pain is acute\"], \"what_worked\": [\"Fast close strategy\", \"Pain-first discovery\"], \"primary_explanation\": \"Decision maker involvement from day 1 and acute pain point led to rapid 2-call close.\"}",
-    "created_at": "2025-11-05 13:20:00"
-  },
-  {
-    "company": "Swiggy Hyperlocal Sales",
-    "deal_name": "Partner Acquisition System",
-    "deal_size": "$14,200",
-    "outcome": "WON",
-    "deal_text": "Swiggy restaurant partner acquisition team. Competitor Leadsquared was also evaluating. We won because our mobile app for field reps was better. Their reps are always on the go.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"Mobile app quality concerns initially\"], \"positive_signals\": [\"Mobile app advantage\", \"Field rep fit\"], \"coaching_note\": \"Lead with the mobile app demo for field-heavy teams.\", \"strategic_insight\": \"Mobile-first positioning is a strong differentiator against desktop-centric competitors.\", \"next_time\": [\"Open with mobile demo for field teams\", \"Always ask about device usage in discovery\", \"Prepare Leadsquared comparison slide\"], \"what_worked\": [\"Mobile app differentiation\", \"Use case alignment\"], \"primary_explanation\": \"Superior mobile app experience for field reps was the decisive differentiator over Leadsquared.\"}",
-    "created_at": "2025-10-28 10:00:00"
-  },
-  {
-    "company": "Nykaa B2B Sales",
-    "deal_name": "Distributor Sales Platform",
-    "deal_size": "$11,250",
-    "outcome": "WON",
-    "deal_text": "Nykaa B2B beauty distributor team. They wanted custom reports. We agreed to build 2 custom reports in month 1. That commitment won the deal over competitors.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Custom reporting\", \"Feature gaps\"], \"positive_signals\": [\"Custom report commitment\", \"Long relationship with sales rep\"], \"coaching_note\": \"Strategic customization commitments can win competitive deals.\", \"strategic_insight\": \"Product customization promises should be tracked and delivered \\u2014 they build long-term retention.\", \"next_time\": [\"Have a customization playbook ready\", \"Get product team to approve custom items before committing\", \"Document commitments in contract\"], \"what_worked\": [\"Customization commitment\", \"Relationship leverage\"], \"primary_explanation\": \"Commitment to deliver custom reports in month 1 differentiated from Zoho and won the deal.\"}",
-    "created_at": "2025-10-20 15:40:00"
-  },
-  {
-    "company": "Urban Company Ops",
-    "deal_name": "Field Partner Onboarding",
-    "deal_size": "$15,900",
-    "outcome": "WON",
-    "deal_text": "Urban Company field partner onboarding team. 6-week evaluation. Security review was intense. We passed all security checks. Their CTO signed off personally.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Salesforce\", \"Hubspot\"], \"objections\": [\"Security compliance\", \"Long evaluation\"], \"positive_signals\": [\"CTO sign-off\", \"Passed security review\", \"No price objection\"], \"coaching_note\": \"Invest in security documentation upfront for enterprise accounts.\", \"strategic_insight\": \"Companies with CTO involvement in security review are high-quality long-term customers.\", \"next_time\": [\"Prepare security documentation in stage 1\", \"Involve your CTO for CTO-level deals\", \"Build a security FAQ document\"], \"what_worked\": [\"Security preparedness\", \"Enterprise credibility\"], \"primary_explanation\": \"Thorough security compliance documentation and CTO-level engagement won a 3-way competitive evaluation.\"}",
-    "created_at": "2025-10-12 12:25:00"
-  },
-  {
-    "company": "Flipkart Commerce",
-    "deal_name": "B2B Commerce Platform",
-    "deal_size": "$24,800",
-    "outcome": "LOST",
-    "deal_text": "Flipkart B2B commerce team with 300+ reps. Were evaluating us vs Salesforce. Lost because Salesforce offered enterprise features we don't have - territory management, advanced forecasting. Also Salesforce brand name carried weight with CTO.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Missing territory management\", \"No advanced forecasting\", \"Brand credibility\"], \"positive_signals\": [\"Price was not the issue\", \"Short-listed to 2\"], \"coaching_note\": \"For 300+ rep enterprise deals, territory management is a must-have feature.\", \"strategic_insight\": \"Salesforce will win on features for large enterprises \\u2014 qualify deal size early and focus on mid-market.\", \"next_time\": [\"Qualify rep count in call 1\", \"Exit 300+ rep deals early if territory management is needed\", \"Build a feature gap response playbook\"], \"what_worked\": [\"Made it to final 2\", \"Price was competitive\"], \"primary_explanation\": \"Product feature gaps (territory management, forecasting) and Salesforce brand credibility with CTO lost this deal.\"}",
-    "created_at": "2025-12-10 08:50:00"
-  },
-  {
-    "company": "Paytm Merchant Sales",
-    "deal_name": "Merchant Acquisition System",
-    "deal_size": "$16,750",
-    "outcome": "LOST",
-    "deal_text": "Paytm merchant acquisition team. Strong eval, positive signals throughout. Lost because company announced a budget freeze 2 weeks before signing. Not related to our product at all.",
-    "primary_reason": "budget_freeze",
-    "report": "{\"competitors\": [], \"objections\": [\"Budget freeze announced\", \"Q4 spending halt\"], \"positive_signals\": [\"Strong product feedback\", \"Championed internally\", \"Close to signing\"], \"coaching_note\": \"Budget freezes are not losses \\u2014 keep the relationship warm and re-engage in Q1.\", \"strategic_insight\": \"Track all budget-freeze losses in a re-engagement pipeline for Q1 outreach.\", \"next_time\": [\"Ask about budget cycle in stage 2\", \"Build Q4 freeze awareness into deal strategy\", \"Set a re-engagement reminder for January\"], \"what_worked\": [\"Strong product evaluation\", \"Internal champion maintained\"], \"primary_explanation\": \"Company-wide Q4 budget freeze announced 2 weeks before signing \\u2014 no product or sales failure.\"}",
-    "created_at": "2025-12-02 14:15:00"
-  },
-  {
-    "company": "OYO Business Hotels",
-    "deal_name": "Hotel Sales Platform",
-    "deal_size": "$12,900",
-    "outcome": "LOST",
-    "deal_text": "OYO B2B hotel sales team. Lost to Zoho CRM. Zoho was 40% cheaper. No matter how we tried to justify ROI, price was the blocker. Decision was purely cost-driven by CFO.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"40% price difference\", \"CFO price-focused\", \"ROI argument not convincing\"], \"positive_signals\": [\"Sales team preferred our product\", \"Better UX acknowledged\"], \"coaching_note\": \"When CFO is the decision maker and price is the only criterion, ROI arguments rarely win.\", \"strategic_insight\": \"Identify CFO-driven deals early \\u2014 they require a different pricing strategy or walk-away decision.\", \"next_time\": [\"Qualify who controls budget in call 1\", \"Have a stripped-down low-price SKU ready\", \"Ask what budget range they have before demoing\"], \"what_worked\": [\"Sales team buy-in\", \"Product UX was preferred\"], \"primary_explanation\": \"40% price disadvantage against Zoho with a CFO making purely cost-driven decisions \\u2014 ROI case was not sufficient.\"}",
-    "created_at": "2025-11-25 11:40:00"
-  },
-  {
-    "company": "BigBasket Supply Chain",
-    "deal_name": "Vendor Communication Platform",
-    "deal_size": "$15,600",
-    "outcome": "LOST",
-    "deal_text": "BigBasket supply chain team. Lost because they needed WhatsApp Business API integration - we don't have it. Their reps communicate with vendors on WhatsApp. This was a hard requirement.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"No WhatsApp integration\", \"Hard requirement not met\"], \"positive_signals\": [\"Loved our UI\", \"Price was fine\", \"Would have signed otherwise\"], \"coaching_note\": \"Feature requirements should be fully qualified in discovery stage 1, not stage 4.\", \"strategic_insight\": \"WhatsApp integration is a recurring requirement \\u2014 accelerate this on the product roadmap.\", \"next_time\": [\"Add WhatsApp integration to discovery checklist\", \"Qualify all integrations needed in call 1\", \"Feed this to product team as priority feature\"], \"what_worked\": [\"UI appreciation\", \"Pricing was competitive\"], \"primary_explanation\": \"Missing WhatsApp Business API integration was a hard requirement \\u2014 lost despite strong product preference.\"}",
-    "created_at": "2025-11-18 09:30:00"
-  },
-  {
-    "company": "MakeMyTrip B2B",
-    "deal_name": "Corporate Travel Platform",
-    "deal_size": "$20,500",
-    "outcome": "LOST",
-    "deal_text": "MakeMyTrip corporate travel B2B team. Final 2 with Salesforce. CTO made final call for Salesforce purely on brand name and enterprise support. Our product was technically superior but brand trust won.",
-    "primary_reason": "competition",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Brand trust\", \"Enterprise support SLA\", \"Salesforce ecosystem\"], \"positive_signals\": [\"Technical evaluation won\", \"Ops team preferred us\", \"Price competitive\"], \"coaching_note\": \"Brand trust vs product quality is a narrative battle \\u2014 invest in case studies and customer logos.\", \"strategic_insight\": \"Against Salesforce brand, we need stronger enterprise customer logos and case studies to build credibility.\", \"next_time\": [\"Lead with customer logos from similar companies\", \"Get a reference call with a happy enterprise customer\", \"Address brand trust in stage 2, not stage 4\"], \"what_worked\": [\"Technical evaluation\", \"Ops team preference\", \"Competitive pricing\"], \"primary_explanation\": \"Salesforce brand trust and enterprise support reputation won over superior technical product in CTO-level decision.\"}",
-    "created_at": "2025-11-10 16:20:00"
-  },
-  {
-    "company": "Lenskart Field Sales",
-    "deal_name": "Field Sales Expansion",
-    "deal_size": "$10,250",
-    "outcome": "LOST",
-    "deal_text": "Lenskart field sales team expansion. Were planning to expand to 200 reps but deal got stuck when their expansion plan was put on hold by leadership. Timing mismatch - they won't need this for 6 months.",
-    "primary_reason": "timing",
-    "report": "{\"competitors\": [], \"objections\": [\"Expansion on hold\", \"Not urgent anymore\", \"Revisit in 6 months\"], \"positive_signals\": [\"No competition\", \"Product fit confirmed\", \"Will revisit\"], \"coaching_note\": \"Set a hard calendar reminder for 5 months from today to re-engage.\", \"strategic_insight\": \"Timing losses are pipeline gold \\u2014 track them separately and re-engage at the right moment.\", \"next_time\": [\"Ask about expansion timeline in call 1\", \"Qualify if headcount growth is confirmed or planned\", \"Add to re-engagement pipeline with date\"], \"what_worked\": [\"No competition\", \"Product fit validated\"], \"primary_explanation\": \"Leadership put expansion plans on hold \\u2014 pure timing issue with confirmed intent to return in 6 months.\"}",
-    "created_at": "2025-11-02 13:50:00"
-  },
-  {
-    "company": "Reliance Retail",
-    "deal_name": "Field Sales Automation",
-    "deal_size": "$18,750",
-    "outcome": "WON",
-    "deal_text": "Prospect had 200 field sales reps with no call tracking. IT Head was our champion. Showed ROI calculator in stage 3 - estimated 28% productivity gain. Competitor Zoho was in the mix but we won on implementation support.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Implementation time\"], \"positive_signals\": [\"IT Head was champion\", \"Strong ROI demo\"], \"coaching_note\": \"Champion strategy worked perfectly.\", \"strategic_insight\": \"ROI calculator in stage 3 is decisive for enterprise deals.\", \"next_time\": [\"Introduce ROI earlier\", \"Get IT Head involved sooner\", \"Document champion strategy\"], \"what_worked\": [\"ROI demonstration\", \"Implementation support offer\"], \"primary_explanation\": \"Strong internal champion and clear ROI justification won the deal.\"}",
-    "created_at": "2025-12-15 10:30:00"
-  },
-  {
-    "company": "HDFC Bank SME Division",
-    "deal_name": "Call Compliance Platform",
-    "deal_size": "$22,400",
-    "outcome": "WON",
-    "deal_text": "Bank needed call compliance and monitoring for 150 loan officers. No competition in final stage. Decision made in 3 weeks. CFO approved budget quickly due to regulatory compliance angle.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [], \"objections\": [\"Data security\"], \"positive_signals\": [\"No competition\", \"Regulatory urgency\", \"Fast budget approval\"], \"coaching_note\": \"Compliance angle was the key unlock.\", \"strategic_insight\": \"Banking sector has strong compliance-driven purchasing \\u2014 lead with compliance in all banking deals.\", \"next_time\": [\"Lead with compliance angle earlier\", \"Involve CFO in first demo\", \"Prepare data security documentation upfront\"], \"what_worked\": [\"Compliance positioning\", \"Fast close strategy\"], \"primary_explanation\": \"Regulatory compliance urgency created fast decision-making with no competition.\"}",
-    "created_at": "2025-12-08 14:20:00"
-  },
-  {
-    "company": "Zomato Field Operations",
-    "deal_name": "Restaurant Acquisition Tracking",
-    "deal_size": "$11,800",
-    "outcome": "WON",
-    "deal_text": "Zomato restaurant acquisition team had 80 salespeople with no structured call tracking. Our platform was 30% cheaper than Salesforce. Demo was strong, free 2-week trial converted them.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Data migration\"], \"positive_signals\": [\"Price advantage\", \"Free trial converted\", \"Strong demo\"], \"coaching_note\": \"Free trial was the conversion catalyst here.\", \"strategic_insight\": \"Against Salesforce, pricing + free trial is a winning combination for mid-market.\", \"next_time\": [\"Offer free trial earlier in the process\", \"Address data migration concerns proactively\", \"Use Salesforce price comparison slide\"], \"what_worked\": [\"Competitive pricing\", \"Free trial offer\"], \"primary_explanation\": \"Clear price advantage over Salesforce combined with successful free trial converted the deal.\"}",
-    "created_at": "2025-11-28 09:15:00"
-  },
-  {
-    "company": "PhonePe Inside Sales",
-    "deal_name": "Merchant Sales Enablement",
-    "deal_size": "$19,600",
-    "outcome": "WON",
-    "deal_text": "PhonePe merchant acquisition team with 120 reps. VP Sales was our champion from day 1. Ran a 3-week POC. Team loved the product. Signed annual contract.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Freshsales\"], \"objections\": [\"POC timeline too long\"], \"positive_signals\": [\"VP Sales as champion\", \"Team loved POC\", \"Annual contract\"], \"coaching_note\": \"Getting VP Sales as champion early eliminated all political blockers.\", \"strategic_insight\": \"C-level champions in sales orgs close deals 2x faster \\u2014 always aim higher.\", \"next_time\": [\"Reduce POC to 2 weeks\", \"Get VP Sales involved in week 1\", \"Prepare team adoption plan\"], \"what_worked\": [\"Executive champion strategy\", \"POC approach\"], \"primary_explanation\": \"VP Sales champion eliminated internal blockers and POC proved value clearly.\"}",
-    "created_at": "2025-11-20 16:45:00"
-  },
-  {
-    "company": "Meesho Supplier Sales",
-    "deal_name": "Supplier Onboarding Platform",
-    "deal_size": "$9,200",
-    "outcome": "WON",
-    "deal_text": "Meesho supplier acquisition team. Budget was tight. We offered a flexible monthly payment plan instead of annual upfront. That unlocked the deal. No strong competitors.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [], \"objections\": [\"Upfront cost\", \"Budget constraints\"], \"positive_signals\": [\"No competition\", \"Flexible payment worked\"], \"coaching_note\": \"Payment flexibility can unlock budget-constrained deals.\", \"strategic_insight\": \"Monthly payment option should be standard offering for SMB-style buyers.\", \"next_time\": [\"Offer monthly plan proactively to budget-constrained accounts\", \"Qualify budget early\", \"Have flexible payment ready as a card to play\"], \"what_worked\": [\"Payment flexibility\", \"No competition positioning\"], \"primary_explanation\": \"Flexible monthly payment plan overcame budget constraints and closed the deal.\"}",
-    "created_at": "2025-11-12 11:30:00"
-  },
-  {
-    "company": "IndiaMART SMB Team",
-    "deal_name": "SMB Sales Visibility",
-    "deal_size": "$7,850",
-    "outcome": "WON",
-    "deal_text": "IndiaMART sales team for SMB onboarding. Quick 2-call close. Decision maker was on the first call. Pain was acute - they had no visibility into rep activity.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [], \"objections\": [\"Integration with existing tools\"], \"positive_signals\": [\"Decision maker in first call\", \"Acute pain point\", \"Quick close\"], \"coaching_note\": \"When the decision maker is in the first call, move fast.\", \"strategic_insight\": \"Deals with DM in call 1 close in under 2 weeks \\u2014 prioritize these.\", \"next_time\": [\"Always try to get DM in first call\", \"Have integration documentation ready\", \"Move quickly when pain is acute\"], \"what_worked\": [\"Fast close strategy\", \"Pain-first discovery\"], \"primary_explanation\": \"Decision maker involvement from day 1 and acute pain point led to rapid 2-call close.\"}",
-    "created_at": "2025-11-05 13:20:00"
-  },
-  {
-    "company": "Swiggy Hyperlocal Sales",
-    "deal_name": "Partner Acquisition System",
-    "deal_size": "$14,200",
-    "outcome": "WON",
-    "deal_text": "Swiggy restaurant partner acquisition team. Competitor Leadsquared was also evaluating. We won because our mobile app for field reps was better. Their reps are always on the go.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"Mobile app quality concerns initially\"], \"positive_signals\": [\"Mobile app advantage\", \"Field rep fit\"], \"coaching_note\": \"Lead with the mobile app demo for field-heavy teams.\", \"strategic_insight\": \"Mobile-first positioning is a strong differentiator against desktop-centric competitors.\", \"next_time\": [\"Open with mobile demo for field teams\", \"Always ask about device usage in discovery\", \"Prepare Leadsquared comparison slide\"], \"what_worked\": [\"Mobile app differentiation\", \"Use case alignment\"], \"primary_explanation\": \"Superior mobile app experience for field reps was the decisive differentiator over Leadsquared.\"}",
-    "created_at": "2025-10-28 10:00:00"
-  },
-  {
-    "company": "Nykaa B2B Sales",
-    "deal_name": "Distributor Sales Platform",
-    "deal_size": "$11,250",
-    "outcome": "WON",
-    "deal_text": "Nykaa B2B beauty distributor team. They wanted custom reports. We agreed to build 2 custom reports in month 1. That commitment won the deal over competitors.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Custom reporting\", \"Feature gaps\"], \"positive_signals\": [\"Custom report commitment\", \"Long relationship with sales rep\"], \"coaching_note\": \"Strategic customization commitments can win competitive deals.\", \"strategic_insight\": \"Product customization promises should be tracked and delivered \\u2014 they build long-term retention.\", \"next_time\": [\"Have a customization playbook ready\", \"Get product team to approve custom items before committing\", \"Document commitments in contract\"], \"what_worked\": [\"Customization commitment\", \"Relationship leverage\"], \"primary_explanation\": \"Commitment to deliver custom reports in month 1 differentiated from Zoho and won the deal.\"}",
-    "created_at": "2025-10-20 15:40:00"
-  },
-  {
-    "company": "Urban Company Ops",
-    "deal_name": "Field Partner Onboarding",
-    "deal_size": "$15,900",
-    "outcome": "WON",
-    "deal_text": "Urban Company field partner onboarding team. 6-week evaluation. Security review was intense. We passed all security checks. Their CTO signed off personally.",
-    "primary_reason": "relationship",
-    "report": "{\"competitors\": [\"Salesforce\", \"Hubspot\"], \"objections\": [\"Security compliance\", \"Long evaluation\"], \"positive_signals\": [\"CTO sign-off\", \"Passed security review\", \"No price objection\"], \"coaching_note\": \"Invest in security documentation upfront for enterprise accounts.\", \"strategic_insight\": \"Companies with CTO involvement in security review are high-quality long-term customers.\", \"next_time\": [\"Prepare security documentation in stage 1\", \"Involve your CTO for CTO-level deals\", \"Build a security FAQ document\"], \"what_worked\": [\"Security preparedness\", \"Enterprise credibility\"], \"primary_explanation\": \"Thorough security compliance documentation and CTO-level engagement won a 3-way competitive evaluation.\"}",
-    "created_at": "2025-10-12 12:25:00"
-  },
-  {
-    "company": "Flipkart Commerce",
-    "deal_name": "B2B Commerce Platform",
-    "deal_size": "$24,800",
-    "outcome": "LOST",
-    "deal_text": "Flipkart B2B commerce team with 300+ reps. Were evaluating us vs Salesforce. Lost because Salesforce offered enterprise features we don't have - territory management, advanced forecasting. Also Salesforce brand name carried weight with CTO.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Missing territory management\", \"No advanced forecasting\", \"Brand credibility\"], \"positive_signals\": [\"Price was not the issue\", \"Short-listed to 2\"], \"coaching_note\": \"For 300+ rep enterprise deals, territory management is a must-have feature.\", \"strategic_insight\": \"Salesforce will win on features for large enterprises \\u2014 qualify deal size early and focus on mid-market.\", \"next_time\": [\"Qualify rep count in call 1\", \"Exit 300+ rep deals early if territory management is needed\", \"Build a feature gap response playbook\"], \"what_worked\": [\"Made it to final 2\", \"Price was competitive\"], \"primary_explanation\": \"Product feature gaps (territory management, forecasting) and Salesforce brand credibility with CTO lost this deal.\"}",
-    "created_at": "2025-12-10 08:50:00"
-  },
-  {
-    "company": "Paytm Merchant Sales",
-    "deal_name": "Merchant Acquisition System",
-    "deal_size": "$16,750",
-    "outcome": "LOST",
-    "deal_text": "Paytm merchant acquisition team. Strong eval, positive signals throughout. Lost because company announced a budget freeze 2 weeks before signing. Not related to our product at all.",
-    "primary_reason": "budget_freeze",
-    "report": "{\"competitors\": [], \"objections\": [\"Budget freeze announced\", \"Q4 spending halt\"], \"positive_signals\": [\"Strong product feedback\", \"Championed internally\", \"Close to signing\"], \"coaching_note\": \"Budget freezes are not losses \\u2014 keep the relationship warm and re-engage in Q1.\", \"strategic_insight\": \"Track all budget-freeze losses in a re-engagement pipeline for Q1 outreach.\", \"next_time\": [\"Ask about budget cycle in stage 2\", \"Build Q4 freeze awareness into deal strategy\", \"Set a re-engagement reminder for January\"], \"what_worked\": [\"Strong product evaluation\", \"Internal champion maintained\"], \"primary_explanation\": \"Company-wide Q4 budget freeze announced 2 weeks before signing \\u2014 no product or sales failure.\"}",
-    "created_at": "2025-12-02 14:15:00"
-  },
-  {
-    "company": "OYO Business Hotels",
-    "deal_name": "Hotel Sales Platform",
-    "deal_size": "$12,900",
-    "outcome": "LOST",
-    "deal_text": "OYO B2B hotel sales team. Lost to Zoho CRM. Zoho was 40% cheaper. No matter how we tried to justify ROI, price was the blocker. Decision was purely cost-driven by CFO.",
-    "primary_reason": "pricing",
-    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"40% price difference\", \"CFO price-focused\", \"ROI argument not convincing\"], \"positive_signals\": [\"Sales team preferred our product\", \"Better UX acknowledged\"], \"coaching_note\": \"When CFO is the decision maker and price is the only criterion, ROI arguments rarely win.\", \"strategic_insight\": \"Identify CFO-driven deals early \\u2014 they require a different pricing strategy or walk-away decision.\", \"next_time\": [\"Qualify who controls budget in call 1\", \"Have a stripped-down low-price SKU ready\", \"Ask what budget range they have before demoing\"], \"what_worked\": [\"Sales team buy-in\", \"Product UX was preferred\"], \"primary_explanation\": \"40% price disadvantage against Zoho with a CFO making purely cost-driven decisions \\u2014 ROI case was not sufficient.\"}",
-    "created_at": "2025-11-25 11:40:00"
-  },
-  {
-    "company": "BigBasket Supply Chain",
-    "deal_name": "Vendor Communication Platform",
-    "deal_size": "$15,600",
-    "outcome": "LOST",
-    "deal_text": "BigBasket supply chain team. Lost because they needed WhatsApp Business API integration - we don't have it. Their reps communicate with vendors on WhatsApp. This was a hard requirement.",
-    "primary_reason": "product_gap",
-    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"No WhatsApp integration\", \"Hard requirement not met\"], \"positive_signals\": [\"Loved our UI\", \"Price was fine\", \"Would have signed otherwise\"], \"coaching_note\": \"Feature requirements should be fully qualified in discovery stage 1, not stage 4.\", \"strategic_insight\": \"WhatsApp integration is a recurring requirement \\u2014 accelerate this on the product roadmap.\", \"next_time\": [\"Add WhatsApp integration to discovery checklist\", \"Qualify all integrations needed in call 1\", \"Feed this to product team as priority feature\"], \"what_worked\": [\"UI appreciation\", \"Pricing was competitive\"], \"primary_explanation\": \"Missing WhatsApp Business API integration was a hard requirement \\u2014 lost despite strong product preference.\"}",
-    "created_at": "2025-11-18 09:30:00"
-  },
-  {
-    "company": "MakeMyTrip B2B",
-    "deal_name": "Corporate Travel Platform",
-    "deal_size": "$20,500",
-    "outcome": "LOST",
-    "deal_text": "MakeMyTrip corporate travel B2B team. Final 2 with Salesforce. CTO made final call for Salesforce purely on brand name and enterprise support. Our product was technically superior but brand trust won.",
-    "primary_reason": "competition",
-    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Brand trust\", \"Enterprise support SLA\", \"Salesforce ecosystem\"], \"positive_signals\": [\"Technical evaluation won\", \"Ops team preferred us\", \"Price competitive\"], \"coaching_note\": \"Brand trust vs product quality is a narrative battle \\u2014 invest in case studies and customer logos.\", \"strategic_insight\": \"Against Salesforce brand, we need stronger enterprise customer logos and case studies to build credibility.\", \"next_time\": [\"Lead with customer logos from similar companies\", \"Get a reference call with a happy enterprise customer\", \"Address brand trust in stage 2, not stage 4\"], \"what_worked\": [\"Technical evaluation\", \"Ops team preference\", \"Competitive pricing\"], \"primary_explanation\": \"Salesforce brand trust and enterprise support reputation won over superior technical product in CTO-level decision.\"}",
-    "created_at": "2025-11-10 16:20:00"
-  },
-  {
-    "company": "Lenskart Field Sales",
-    "deal_name": "Field Sales Expansion",
-    "deal_size": "$10,250",
-    "outcome": "LOST",
-    "deal_text": "Lenskart field sales team expansion. Were planning to expand to 200 reps but deal got stuck when their expansion plan was put on hold by leadership. Timing mismatch - they won't need this for 6 months.",
-    "primary_reason": "timing",
-    "report": "{\"competitors\": [], \"objections\": [\"Expansion on hold\", \"Not urgent anymore\", \"Revisit in 6 months\"], \"positive_signals\": [\"No competition\", \"Product fit confirmed\", \"Will revisit\"], \"coaching_note\": \"Set a hard calendar reminder for 5 months from today to re-engage.\", \"strategic_insight\": \"Timing losses are pipeline gold \\u2014 track them separately and re-engage at the right moment.\", \"next_time\": [\"Ask about expansion timeline in call 1\", \"Qualify if headcount growth is confirmed or planned\", \"Add to re-engagement pipeline with date\"], \"what_worked\": [\"No competition\", \"Product fit validated\"], \"primary_explanation\": \"Leadership put expansion plans on hold \\u2014 pure timing issue with confirmed intent to return in 6 months.\"}",
-    "created_at": "2025-11-02 13:50:00"
+    "report": "{\"company\":\"Stripe India Operations\",\"deal_size\":\"$38,000\",\"outcome\":\"LOST\",\"primary_reason\":\"product_gap\",\"primary_explanation\":\"The prospect required native Zendesk and Salesforce two‑way sync, which our solution lacked, creating a clear product gap. This would have necessitated custom IT work, which the VP Finance considered too risky and costly.\",\"secondary_reason\":\"competition\",\"in_our_control\":[\"Develop and release native Zendesk and Salesforce two‑way integrations\",\"Offer a pre‑built integration package to eliminate custom IT effort\",\"Communicate roadmap and integration plans more proactively during the sales cycle\"],\"not_in_our_control\":[\"Salesforce's existing integration with the customer's ticketing system\",\"The VP Finance's final decision to prioritize integration over lower licensing cost\"],\"competitors\":[\"Salesforce\"],\"objections\":[\"Lack of native Zendesk integration\",\"Lack of native Salesforce two-way sync\",\"Would require custom IT work\"],\"positive_signals\":[\"Product demo went very well\",\"Team loved automatic call transcription feature\",\"Evaluated for 250 customer success reps\",\"25% lower licensing cost\"],\"coaching_note\":\"Focus on uncovering integration requirements earlier and position your solution's roadmap or partner ecosystem to address gaps. When a critical native integration is missing, propose a clear, low‑risk migration plan or pilot to mitigate the VP Finance's concerns.\",\"strategic_insight\":\"The prospect's decision hinged on a native two‑way sync, highlighting a product gap that cannot be offset by generic features. Investing in a strategic partnership or accelerated development for Zendesk‑Salesforce integration could open similar high‑value accounts.\",\"next_time\":[\"Conduct a pre‑discovery session to map required integrations\",\"Prepare a detailed ROI and risk analysis for custom sync options\",\"Engage a product specialist or partner to demonstrate a proof‑of‑concept for the integration\"],\"what_worked\":[\"Established strong rapport with the VP Finance and secured budget authority early\",\"Clearly articulated the overall value proposition and cost savings of the core platform\"]}",
+    "created_at": "2026-09-18 19:13:57"
   },
   {
     "company": "Acme Global Logistics",
@@ -310,13 +20,153 @@
     "created_at": "2026-09-18 17:24:45"
   },
   {
-    "company": "Stripe India Operations",
-    "deal_name": "Customer Success Call Intelligence",
-    "deal_size": "$38,000",
+    "company": "Lenskart Field Sales",
+    "deal_name": "Field Sales Expansion",
+    "deal_size": "$10,250",
     "outcome": "LOST",
-    "deal_text": "Evaluated for 250 customer success reps. Head of Support was our main contact. The product demo went very well and the team loved our automatic call transcription feature. However, Salesforce was also in the evaluation and already integrated with their existing ticketing system. In the final procurement review, their VP Finance flagged that we lacked native Zendesk and Salesforce two-way sync, which would require custom IT work. They decided to renew with Salesforce despite our 25% lower licensing cost.\n",
+    "deal_text": "Lenskart field sales team expansion. Were planning to expand to 200 reps but deal got stuck when their expansion plan was put on hold by leadership. Timing mismatch - they won't need this for 6 months.",
+    "primary_reason": "timing",
+    "report": "{\"competitors\": [], \"objections\": [\"Expansion on hold\", \"Not urgent anymore\", \"Revisit in 6 months\"], \"positive_signals\": [\"No competition\", \"Product fit confirmed\", \"Will revisit\"], \"coaching_note\": \"Set a hard calendar reminder for 5 months from today to re-engage.\", \"strategic_insight\": \"Timing losses are pipeline gold \\u2014 track them separately and re-engage at the right moment.\", \"next_time\": [\"Ask about expansion timeline in call 1\", \"Qualify if headcount growth is confirmed or planned\", \"Add to re-engagement pipeline with date\"], \"what_worked\": [\"No competition\", \"Product fit validated\"], \"primary_explanation\": \"Leadership put expansion plans on hold \\u2014 pure timing issue with confirmed intent to return in 6 months.\"}",
+    "created_at": "2025-11-02 13:50:00"
+  },
+  {
+    "company": "MakeMyTrip B2B",
+    "deal_name": "Corporate Travel Platform",
+    "deal_size": "$20,500",
+    "outcome": "LOST",
+    "deal_text": "MakeMyTrip corporate travel B2B team. Final 2 with Salesforce. CTO made final call for Salesforce purely on brand name and enterprise support. Our product was technically superior but brand trust won.",
+    "primary_reason": "competition",
+    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Brand trust\", \"Enterprise support SLA\", \"Salesforce ecosystem\"], \"positive_signals\": [\"Technical evaluation won\", \"Ops team preferred us\", \"Price competitive\"], \"coaching_note\": \"Brand trust vs product quality is a narrative battle \\u2014 invest in case studies and customer logos.\", \"strategic_insight\": \"Against Salesforce brand, we need stronger enterprise customer logos and case studies to build credibility.\", \"next_time\": [\"Lead with customer logos from similar companies\", \"Get a reference call with a happy enterprise customer\", \"Address brand trust in stage 2, not stage 4\"], \"what_worked\": [\"Technical evaluation\", \"Ops team preference\", \"Competitive pricing\"], \"primary_explanation\": \"Salesforce brand trust and enterprise support reputation won over superior technical product in CTO-level decision.\"}",
+    "created_at": "2025-11-10 16:20:00"
+  },
+  {
+    "company": "BigBasket Supply Chain",
+    "deal_name": "Vendor Communication Platform",
+    "deal_size": "$15,600",
+    "outcome": "LOST",
+    "deal_text": "BigBasket supply chain team. Lost because they needed WhatsApp Business API integration - we don't have it. Their reps communicate with vendors on WhatsApp. This was a hard requirement.",
     "primary_reason": "product_gap",
-    "report": "{\"company\":\"Stripe India Operations\",\"deal_size\":\"$38,000\",\"outcome\":\"LOST\",\"primary_reason\":\"product_gap\",\"primary_explanation\":\"The prospect required native Zendesk and Salesforce two‑way sync, which our solution lacked, creating a clear product gap. This would have necessitated custom IT work, which the VP Finance considered too risky and costly.\",\"secondary_reason\":\"competition\",\"in_our_control\":[\"Develop and release native Zendesk and Salesforce two‑way integrations\",\"Offer a pre‑built integration package to eliminate custom IT effort\",\"Communicate roadmap and integration plans more proactively during the sales cycle\"],\"not_in_our_control\":[\"Salesforce's existing integration with the customer's ticketing system\",\"The VP Finance's final decision to prioritize integration over lower licensing cost\"],\"competitors\":[\"Salesforce\"],\"objections\":[\"Lack of native Zendesk integration\",\"Lack of native Salesforce two-way sync\",\"Would require custom IT work\"],\"positive_signals\":[\"Product demo went very well\",\"Team loved automatic call transcription feature\",\"Evaluated for 250 customer success reps\",\"25% lower licensing cost\"],\"coaching_note\":\"Focus on uncovering integration requirements earlier and position your solution's roadmap or partner ecosystem to address gaps. When a critical native integration is missing, propose a clear, low‑risk migration plan or pilot to mitigate the VP Finance's concerns.\",\"strategic_insight\":\"The prospect's decision hinged on a native two‑way sync, highlighting a product gap that cannot be offset by generic features. Investing in a strategic partnership or accelerated development for Zendesk‑Salesforce integration could open similar high‑value accounts.\",\"next_time\":[\"Conduct a pre‑discovery session to map required integrations\",\"Prepare a detailed ROI and risk analysis for custom sync options\",\"Engage a product specialist or partner to demonstrate a proof‑of‑concept for the integration\"],\"what_worked\":[\"Established strong rapport with the VP Finance and secured budget authority early\",\"Clearly articulated the overall value proposition and cost savings of the core platform\"]}",
-    "created_at": "2026-09-18 19:13:57"
+    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"No WhatsApp integration\", \"Hard requirement not met\"], \"positive_signals\": [\"Loved our UI\", \"Price was fine\", \"Would have signed otherwise\"], \"coaching_note\": \"Feature requirements should be fully qualified in discovery stage 1, not stage 4.\", \"strategic_insight\": \"WhatsApp integration is a recurring requirement \\u2014 accelerate this on the product roadmap.\", \"next_time\": [\"Add WhatsApp integration to discovery checklist\", \"Qualify all integrations needed in call 1\", \"Feed this to product team as priority feature\"], \"what_worked\": [\"UI appreciation\", \"Pricing was competitive\"], \"primary_explanation\": \"Missing WhatsApp Business API integration was a hard requirement \\u2014 lost despite strong product preference.\"}",
+    "created_at": "2025-11-18 09:30:00"
+  },
+  {
+    "company": "OYO Business Hotels",
+    "deal_name": "Hotel Sales Platform",
+    "deal_size": "$12,900",
+    "outcome": "LOST",
+    "deal_text": "OYO B2B hotel sales team. Lost to Zoho CRM. Zoho was 40% cheaper. No matter how we tried to justify ROI, price was the blocker. Decision was purely cost-driven by CFO.",
+    "primary_reason": "pricing",
+    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"40% price difference\", \"CFO price-focused\", \"ROI argument not convincing\"], \"positive_signals\": [\"Sales team preferred our product\", \"Better UX acknowledged\"], \"coaching_note\": \"When CFO is the decision maker and price is the only criterion, ROI arguments rarely win.\", \"strategic_insight\": \"Identify CFO-driven deals early \\u2014 they require a different pricing strategy or walk-away decision.\", \"next_time\": [\"Qualify who controls budget in call 1\", \"Have a stripped-down low-price SKU ready\", \"Ask what budget range they have before demoing\"], \"what_worked\": [\"Sales team buy-in\", \"Product UX was preferred\"], \"primary_explanation\": \"40% price disadvantage against Zoho with a CFO making purely cost-driven decisions \\u2014 ROI case was not sufficient.\"}",
+    "created_at": "2025-11-25 11:40:00"
+  },
+  {
+    "company": "Paytm Merchant Sales",
+    "deal_name": "Merchant Acquisition System",
+    "deal_size": "$16,750",
+    "outcome": "LOST",
+    "deal_text": "Paytm merchant acquisition team. Strong eval, positive signals throughout. Lost because company announced a budget freeze 2 weeks before signing. Not related to our product at all.",
+    "primary_reason": "budget_freeze",
+    "report": "{\"competitors\": [], \"objections\": [\"Budget freeze announced\", \"Q4 spending halt\"], \"positive_signals\": [\"Strong product feedback\", \"Championed internally\", \"Close to signing\"], \"coaching_note\": \"Budget freezes are not losses \\u2014 keep the relationship warm and re-engage in Q1.\", \"strategic_insight\": \"Track all budget-freeze losses in a re-engagement pipeline for Q1 outreach.\", \"next_time\": [\"Ask about budget cycle in stage 2\", \"Build Q4 freeze awareness into deal strategy\", \"Set a re-engagement reminder for January\"], \"what_worked\": [\"Strong product evaluation\", \"Internal champion maintained\"], \"primary_explanation\": \"Company-wide Q4 budget freeze announced 2 weeks before signing \\u2014 no product or sales failure.\"}",
+    "created_at": "2025-12-02 14:15:00"
+  },
+  {
+    "company": "Flipkart Commerce",
+    "deal_name": "B2B Commerce Platform",
+    "deal_size": "$24,800",
+    "outcome": "LOST",
+    "deal_text": "Flipkart B2B commerce team with 300+ reps. Were evaluating us vs Salesforce. Lost because Salesforce offered enterprise features we don't have - territory management, advanced forecasting. Also Salesforce brand name carried weight with CTO.",
+    "primary_reason": "product_gap",
+    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Missing territory management\", \"No advanced forecasting\", \"Brand credibility\"], \"positive_signals\": [\"Price was not the issue\", \"Short-listed to 2\"], \"coaching_note\": \"For 300+ rep enterprise deals, territory management is a must-have feature.\", \"strategic_insight\": \"Salesforce will win on features for large enterprises \\u2014 qualify deal size early and focus on mid-market.\", \"next_time\": [\"Qualify rep count in call 1\", \"Exit 300+ rep deals early if territory management is needed\", \"Build a feature gap response playbook\"], \"what_worked\": [\"Made it to final 2\", \"Price was competitive\"], \"primary_explanation\": \"Product feature gaps (territory management, forecasting) and Salesforce brand credibility with CTO lost this deal.\"}",
+    "created_at": "2025-12-10 08:50:00"
+  },
+  {
+    "company": "Urban Company Ops",
+    "deal_name": "Field Partner Onboarding",
+    "deal_size": "$15,900",
+    "outcome": "WON",
+    "deal_text": "Urban Company field partner onboarding team. 6-week evaluation. Security review was intense. We passed all security checks. Their CTO signed off personally.",
+    "primary_reason": "relationship",
+    "report": "{\"competitors\": [\"Salesforce\", \"Hubspot\"], \"objections\": [\"Security compliance\", \"Long evaluation\"], \"positive_signals\": [\"CTO sign-off\", \"Passed security review\", \"No price objection\"], \"coaching_note\": \"Invest in security documentation upfront for enterprise accounts.\", \"strategic_insight\": \"Companies with CTO involvement in security review are high-quality long-term customers.\", \"next_time\": [\"Prepare security documentation in stage 1\", \"Involve your CTO for CTO-level deals\", \"Build a security FAQ document\"], \"what_worked\": [\"Security preparedness\", \"Enterprise credibility\"], \"primary_explanation\": \"Thorough security compliance documentation and CTO-level engagement won a 3-way competitive evaluation.\"}",
+    "created_at": "2025-10-12 12:25:00"
+  },
+  {
+    "company": "Nykaa B2B Sales",
+    "deal_name": "Distributor Sales Platform",
+    "deal_size": "$11,250",
+    "outcome": "WON",
+    "deal_text": "Nykaa B2B beauty distributor team. They wanted custom reports. We agreed to build 2 custom reports in month 1. That commitment won the deal over competitors.",
+    "primary_reason": "relationship",
+    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Custom reporting\", \"Feature gaps\"], \"positive_signals\": [\"Custom report commitment\", \"Long relationship with sales rep\"], \"coaching_note\": \"Strategic customization commitments can win competitive deals.\", \"strategic_insight\": \"Product customization promises should be tracked and delivered \\u2014 they build long-term retention.\", \"next_time\": [\"Have a customization playbook ready\", \"Get product team to approve custom items before committing\", \"Document commitments in contract\"], \"what_worked\": [\"Customization commitment\", \"Relationship leverage\"], \"primary_explanation\": \"Commitment to deliver custom reports in month 1 differentiated from Zoho and won the deal.\"}",
+    "created_at": "2025-10-20 15:40:00"
+  },
+  {
+    "company": "Swiggy Hyperlocal Sales",
+    "deal_name": "Partner Acquisition System",
+    "deal_size": "$14,200",
+    "outcome": "WON",
+    "deal_text": "Swiggy restaurant partner acquisition team. Competitor Leadsquared was also evaluating. We won because our mobile app for field reps was better. Their reps are always on the go.",
+    "primary_reason": "product_gap",
+    "report": "{\"competitors\": [\"Leadsquared\"], \"objections\": [\"Mobile app quality concerns initially\"], \"positive_signals\": [\"Mobile app advantage\", \"Field rep fit\"], \"coaching_note\": \"Lead with the mobile app demo for field-heavy teams.\", \"strategic_insight\": \"Mobile-first positioning is a strong differentiator against desktop-centric competitors.\", \"next_time\": [\"Open with mobile demo for field teams\", \"Always ask about device usage in discovery\", \"Prepare Leadsquared comparison slide\"], \"what_worked\": [\"Mobile app differentiation\", \"Use case alignment\"], \"primary_explanation\": \"Superior mobile app experience for field reps was the decisive differentiator over Leadsquared.\"}",
+    "created_at": "2025-10-28 10:00:00"
+  },
+  {
+    "company": "IndiaMART SMB Team",
+    "deal_name": "SMB Sales Visibility",
+    "deal_size": "$7,850",
+    "outcome": "WON",
+    "deal_text": "IndiaMART sales team for SMB onboarding. Quick 2-call close. Decision maker was on the first call. Pain was acute - they had no visibility into rep activity.",
+    "primary_reason": "relationship",
+    "report": "{\"competitors\": [], \"objections\": [\"Integration with existing tools\"], \"positive_signals\": [\"Decision maker in first call\", \"Acute pain point\", \"Quick close\"], \"coaching_note\": \"When the decision maker is in the first call, move fast.\", \"strategic_insight\": \"Deals with DM in call 1 close in under 2 weeks \\u2014 prioritize these.\", \"next_time\": [\"Always try to get DM in first call\", \"Have integration documentation ready\", \"Move quickly when pain is acute\"], \"what_worked\": [\"Fast close strategy\", \"Pain-first discovery\"], \"primary_explanation\": \"Decision maker involvement from day 1 and acute pain point led to rapid 2-call close.\"}",
+    "created_at": "2025-11-05 13:20:00"
+  },
+  {
+    "company": "Meesho Supplier Sales",
+    "deal_name": "Supplier Onboarding Platform",
+    "deal_size": "$9,200",
+    "outcome": "WON",
+    "deal_text": "Meesho supplier acquisition team. Budget was tight. We offered a flexible monthly payment plan instead of annual upfront. That unlocked the deal. No strong competitors.",
+    "primary_reason": "pricing",
+    "report": "{\"competitors\": [], \"objections\": [\"Upfront cost\", \"Budget constraints\"], \"positive_signals\": [\"No competition\", \"Flexible payment worked\"], \"coaching_note\": \"Payment flexibility can unlock budget-constrained deals.\", \"strategic_insight\": \"Monthly payment option should be standard offering for SMB-style buyers.\", \"next_time\": [\"Offer monthly plan proactively to budget-constrained accounts\", \"Qualify budget early\", \"Have flexible payment ready as a card to play\"], \"what_worked\": [\"Payment flexibility\", \"No competition positioning\"], \"primary_explanation\": \"Flexible monthly payment plan overcame budget constraints and closed the deal.\"}",
+    "created_at": "2025-11-12 11:30:00"
+  },
+  {
+    "company": "PhonePe Inside Sales",
+    "deal_name": "Merchant Sales Enablement",
+    "deal_size": "$19,600",
+    "outcome": "WON",
+    "deal_text": "PhonePe merchant acquisition team with 120 reps. VP Sales was our champion from day 1. Ran a 3-week POC. Team loved the product. Signed annual contract.",
+    "primary_reason": "relationship",
+    "report": "{\"competitors\": [\"Freshsales\"], \"objections\": [\"POC timeline too long\"], \"positive_signals\": [\"VP Sales as champion\", \"Team loved POC\", \"Annual contract\"], \"coaching_note\": \"Getting VP Sales as champion early eliminated all political blockers.\", \"strategic_insight\": \"C-level champions in sales orgs close deals 2x faster \\u2014 always aim higher.\", \"next_time\": [\"Reduce POC to 2 weeks\", \"Get VP Sales involved in week 1\", \"Prepare team adoption plan\"], \"what_worked\": [\"Executive champion strategy\", \"POC approach\"], \"primary_explanation\": \"VP Sales champion eliminated internal blockers and POC proved value clearly.\"}",
+    "created_at": "2025-11-20 16:45:00"
+  },
+  {
+    "company": "Zomato Field Operations",
+    "deal_name": "Restaurant Acquisition Tracking",
+    "deal_size": "$11,800",
+    "outcome": "WON",
+    "deal_text": "Zomato restaurant acquisition team had 80 salespeople with no structured call tracking. Our platform was 30% cheaper than Salesforce. Demo was strong, free 2-week trial converted them.",
+    "primary_reason": "pricing",
+    "report": "{\"competitors\": [\"Salesforce\"], \"objections\": [\"Data migration\"], \"positive_signals\": [\"Price advantage\", \"Free trial converted\", \"Strong demo\"], \"coaching_note\": \"Free trial was the conversion catalyst here.\", \"strategic_insight\": \"Against Salesforce, pricing + free trial is a winning combination for mid-market.\", \"next_time\": [\"Offer free trial earlier in the process\", \"Address data migration concerns proactively\", \"Use Salesforce price comparison slide\"], \"what_worked\": [\"Competitive pricing\", \"Free trial offer\"], \"primary_explanation\": \"Clear price advantage over Salesforce combined with successful free trial converted the deal.\"}",
+    "created_at": "2025-11-28 09:15:00"
+  },
+  {
+    "company": "HDFC Bank SME Division",
+    "deal_name": "Call Compliance Platform",
+    "deal_size": "$22,400",
+    "outcome": "WON",
+    "deal_text": "Bank needed call compliance and monitoring for 150 loan officers. No competition in final stage. Decision made in 3 weeks. CFO approved budget quickly due to regulatory compliance angle.",
+    "primary_reason": "product_gap",
+    "report": "{\"competitors\": [], \"objections\": [\"Data security\"], \"positive_signals\": [\"No competition\", \"Regulatory urgency\", \"Fast budget approval\"], \"coaching_note\": \"Compliance angle was the key unlock.\", \"strategic_insight\": \"Banking sector has strong compliance-driven purchasing \\u2014 lead with compliance in all banking deals.\", \"next_time\": [\"Lead with compliance angle earlier\", \"Involve CFO in first demo\", \"Prepare data security documentation upfront\"], \"what_worked\": [\"Compliance positioning\", \"Fast close strategy\"], \"primary_explanation\": \"Regulatory compliance urgency created fast decision-making with no competition.\"}",
+    "created_at": "2025-12-08 14:20:00"
+  },
+  {
+    "company": "Reliance Retail",
+    "deal_name": "Field Sales Automation",
+    "deal_size": "$18,750",
+    "outcome": "WON",
+    "deal_text": "Prospect had 200 field sales reps with no call tracking. IT Head was our champion. Showed ROI calculator in stage 3 - estimated 28% productivity gain. Competitor Zoho was in the mix but we won on implementation support.",
+    "primary_reason": "relationship",
+    "report": "{\"competitors\": [\"Zoho\"], \"objections\": [\"Implementation time\"], \"positive_signals\": [\"IT Head was champion\", \"Strong ROI demo\"], \"coaching_note\": \"Champion strategy worked perfectly.\", \"strategic_insight\": \"ROI calculator in stage 3 is decisive for enterprise deals.\", \"next_time\": [\"Introduce ROI earlier\", \"Get IT Head involved sooner\", \"Document champion strategy\"], \"what_worked\": [\"ROI demonstration\", \"Implementation support offer\"], \"primary_explanation\": \"Strong internal champion and clear ROI justification won the deal.\"}",
+    "created_at": "2025-12-15 10:30:00"
   }
 ]

@@ -101,12 +101,26 @@ async function seed() {
     console.log('Created Demo AE: ae@dealiq.com / ae123456');
   }
 
-  // 4. Seed deals if empty
+  // 4. Remove any duplicate deals if they exist
+  try {
+    db.run(`
+      DELETE FROM deals 
+      WHERE id NOT IN (
+        SELECT MIN(id) 
+        FROM deals 
+        GROUP BY company, deal_name
+      )
+    `);
+  } catch (err) {
+    console.warn('Deduplication warning:', err.message);
+  }
+
+  // 5. Seed deals if empty
   const dealsCountRes = db.exec('SELECT COUNT(*) as count FROM deals');
   const count = (dealsCountRes.length > 0 && dealsCountRes[0].values.length > 0) ? dealsCountRes[0].values[0][0] : 0;
   
   if (count > 0) {
-    console.log(`Database already has ${count} deals. Skipping deals seed.`);
+    console.log(`Database verified with ${count} unique deals.`);
     saveDb();
     return;
   }
