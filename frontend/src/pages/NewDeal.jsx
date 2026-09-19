@@ -49,16 +49,16 @@ export default function NewDeal({ onResult }) {
         headers,
         body: JSON.stringify(form)
       });
-      const data = await res.json();
+      const data = await res.json().catch(() => ({}));
       setLoading(false);
-      if (data.success) {
+      if (res.ok && data.success) {
         onResult(data.report);
       } else {
-        setError("Analysis failed. Check your API key.");
+        setError(data.error || "Analysis failed. Please ensure MS2 AI Service is running with a valid GROQ_API_KEY.");
       }
     } catch (err) {
       setLoading(false);
-      setError("Could not connect to backend. Make sure it is running.");
+      setError(err.message || "Could not connect to backend. Make sure it is running.");
     }
   };
 

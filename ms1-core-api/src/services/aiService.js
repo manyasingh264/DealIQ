@@ -48,7 +48,10 @@ async function diagnoseDealWithMS2(dealData) {
     return validated.data.report;
   } catch (err) {
     if (err.name === 'AbortError') {
-      throw new Error('MS2 AI Service request timed out after 60s');
+      throw new Error('MS2 AI Service request timed out after 60s (LLM took too long or server waking up)');
+    }
+    if (err.code === 'ECONNREFUSED' || err.message?.includes('fetch failed')) {
+      throw new Error(`Unable to connect to MS2 AI Service at ${MS2_API_URL}. Ensure your backend service is deployed and MS2_API_URL is set in MS1 environment variables.`);
     }
     throw err;
   } finally {
