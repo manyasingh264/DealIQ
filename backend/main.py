@@ -26,6 +26,7 @@ class DealInput(BaseModel):
     deal_text: str
 
 # ── Routes ───────────────────────────────────────────────────────
+@app.get("/")
 @app.get("/health")
 @app.get("/api/health")
 def health():
