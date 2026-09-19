@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <defs>
+    <linearGradient id="dq-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366F1" />
+      <stop offset="50%" stop-color="#4F46E5" />
+      <stop offset="100%" stop-color="#4338CA" />
+    </linearGradient>
+    <filter id="subtle-shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="1" stdDeviation="0.8" flood-color="#1E1B4B" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Rounded App Icon Background -->
+  <rect width="32" height="32" rx="7.5" fill="url(#dq-gradient)" />
+  
+  <!-- Subtle Highlight Border -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="7" fill="none" stroke="rgba(255, 255, 255, 0.25)" stroke-width="1" />
+
+  <!-- Clean DealIQ "DQ" Monogram -->
+  <g filter="url(#subtle-shadow)">
+    <text 
+      x="16" 
+      y="21.5" 
+      font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif" 
+      font-size="14.5" 
+      font-weight="900" 
+      fill="#FFFFFF" 
+      text-anchor="middle" 
+      letter-spacing="-0.5px">DQ</text>
+  </g>
+</svg>
