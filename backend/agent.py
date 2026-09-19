@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-llm = ChatGroq(model=os.getenv("GROQ_MODEL", "openai/gpt-oss-120b"), temperature=0,
+llm = ChatGroq(model=os.getenv("GROQ_MODEL", "llama-3.3-70b-versatile"), temperature=0,
                groq_api_key=os.getenv("GROQ_API_KEY"))
 
 class DealState(TypedDict):
@@ -20,16 +20,17 @@ class DealState(TypedDict):
     final_report: Optional[dict]
 
 def ask(prompt: str) -> dict:
-    full_prompt = prompt + "\n\nIMPORTANT: Respond ONLY with valid JSON. No markdown, just JSON."
-    resp = llm.invoke(full_prompt)
-    text = resp.content.strip()
-    if text.startswith("```"):
-        text = text.split("```")[1]
-        if text.startswith("json"):
-            text = text[4:]
     try:
+        full_prompt = prompt + "\n\nIMPORTANT: Respond ONLY with valid JSON. No markdown, just JSON."
+        resp = llm.invoke(full_prompt)
+        text = resp.content.strip()
+        if text.startswith("```"):
+            text = text.split("```")[1]
+            if text.startswith("json"):
+                text = text[4:]
         return json.loads(text)
-    except:
+    except Exception as e:
+        print(f"[ask] ERROR: {e}")
         return {}
 
 def parse_and_detect(state: DealState) -> DealState:
