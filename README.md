@@ -1,8 +1,7 @@
-# 🧠 DealIQ — Sales Intelligence & Deal Diagnostics Agent
+# DealIQ — Sales Intelligence & Deal Diagnostics Agent
 
 > An agentic AI platform that analyzes sales deals to uncover why they win or lose — delivering multi-node LangGraph pattern detection, tactical coaching notes, competitor intelligence, and executive strategic insights.
 
-**Built for AIONOS Agentic AI Factory | Sales & Alliances Department**
 
 ---
 
